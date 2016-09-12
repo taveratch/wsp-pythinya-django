@@ -1,4 +1,4 @@
-ngo Framework + ReactJS
+## Django Framework + ReactJS
 Developing website by using ReactJS on Django framework
 
 ## How does it work
