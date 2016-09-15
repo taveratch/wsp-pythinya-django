@@ -17,6 +17,7 @@ var http = require('http');
 var express = require('express');
 var bodyParser = require('body-parser');
 var reactRender = require('react-render');
+var morgan = require('morgan');
 
 // Ensure support for loading files that contain ES6+7 & JSX
 require('babel-core/register');
@@ -28,7 +29,7 @@ var app = express();
 var server = http.Server(app);
 
 app.use(bodyParser.json());
-
+app.use(morgan('dev'));
 app.get('/', function(req, res) {
 	res.end('React render server');
 });
