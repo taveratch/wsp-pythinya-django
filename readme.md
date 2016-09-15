@@ -12,3 +12,6 @@ Developing website by using ReactJS on Django framework
 5. Go to project's root directory.
 6. `npm install`
 7. `python manage.py runserver`
+
+## Frontend
+1. Go to `http://localhost:8000/react`
